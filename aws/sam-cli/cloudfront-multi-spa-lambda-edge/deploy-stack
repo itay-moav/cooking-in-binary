@@ -1,0 +1,4 @@
+#NOTICE: Replace the values with your own. I entered demo values, they WILL NOT work out of the box for you
+sam build
+sam deploy --parameter-overrides CIBTagCreatedDate=20240622 CIBTagCreatedBy=itay.moav@some.email.org CIBSubdomain=demo CIBDomainName=example.club CIBCertificateArn=arn:aws:acm:us-east-1:724920156942:certificate/5220a7ef-1e9c-43b4-d96g-629f5a9c09ea CIBHostedZoneId=Z07F348HED930GEK27XZ2 --config-env default --resolve-s3
+aws s3 sync static-pages s3://demo.example.club

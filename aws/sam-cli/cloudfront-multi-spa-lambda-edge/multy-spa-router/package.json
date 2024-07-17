@@ -1,0 +1,19 @@
+{
+  "name": "lambda_edge_routing_request",
+  "version": "1.0.0",
+  "description": "Lambda edge to route user requests",
+  "main": "app.js",
+  "repository": "https://github.com/itay-moav/cooking-in-binary",
+  "author": "Itay Moav",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.2.0"
+  }
+}
